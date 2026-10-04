@@ -1,0 +1,28 @@
+{
+  "sections": [
+    {
+      "title": "Why profitability and cash conversion changed",
+      "paragraphs": [
+        "Profitability improved through FY2024 and FY2025 before a modest pullback in FY2026. Revenue rose from USD 26,974.0 million in FY2023 [F01] to USD 130,497.0 million in FY2025 [F03] and USD 215,938.0 million in FY2026 [F04]. EBIT margin increased from 15.7% [F01] to 54.1% [F02] and 62.4% [F03], then eased to 60.4% [F04]; parent net margin reached 55.8% [F03] and 55.6% [F04]. Parent ROE was 91.5% [F02], 119.2% [F03] and 101.5% [F04], after FY2023 was unavailable [F01]. No management, segment, product, order, pricing or cost-line evidence is supplied, so the increase cannot be confidently attributed to AI, demand, mix, pricing or cost control; those are competing explanations, not established drivers.",
+        "Cash conversion weakened: CFO divided by parent profit was 1.29x in FY2023 [F01], 0.94x in FY2024 [F02], 0.88x in FY2025 [F03] and 0.86x in FY2026 [F04]. That ratio relates operating cash flow to parent profit, not consolidated EBIT, and the packet lacks cash-flow components needed to isolate the cause. Working-capital builds, higher cash taxes or timing differences could explain lower conversion, but none is verified. Stock-based compensation and other non-cash items require reconciliation before their effect can be inferred. A01 assumes a 22.5% trade-working-capital ratio, but that is a valuation input, not observed FY2026 cash flow; the proxy omits prepayments, contract assets and customer advances [L01]. Cash-flow statements, working-capital changes, tax and SBC disclosures, plus segment and order data would distinguish these explanations; none is supplied."
+      ]
+    },
+    {
+      "title": "Cash allocation, reinvestment and valuation assumptions",
+      "paragraphs": [
+        "The annual bridge freezes cash at USD 10,605.0 million, investments at USD 51,951.0 million, debt at USD 11,040.0 million and shares at 24,304.000 million [A01]. The USD 21,593.8 million operating cash reserve is not distributable cash, and investments cannot be treated as immediately available liquidity without liquidity and tax review [L01]. The packet does not show dividends, buybacks or other allocations, so actual cash allocation cannot be inferred; post-anchor actions are not bridged [L01]. The net bridge is USD 1.23 per share [C01], but it is a modelled residual, not observed distributable value. Shares are frozen annually, not current, and do not capture dilution or buybacks [L01].",
+        "The DCF base is USD 92.08 per share versus a close of USD 233.95 on 2026-10-02, a 60.6% base downside; bull/bear values are separate assumptions [C01]. Terminal EV is 72.9% of value, so WACC, perpetual growth and terminal margin are material [C01]. A01 assumes 25.0% revenue growth, 60.4% EBIT margin, 10.0% WACC, 2.0% perpetual growth, 12.0% stable ROIC and 22.5% trade NWC; capex is 2.8% and D&A 1.3%. These are assumptions, not probabilities or forecasts. The positive NWC ratio means growth consumes cash through the trade proxy, while capex above D&A implies reinvestment. The model indicates a discount versus the close, not a small premium, but it remains assumption-driven and constrained by missing current balances and operating evidence [L01]."
+      ]
+    }
+  ],
+  "missing_evidence": [
+    "Segment, product, order, pricing and cost-line disclosures to distinguish whether margin expansion came from AI-related demand, mix, pricing, operating leverage, cost control or other factors.",
+    "Cash-flow statement details on receivables, inventory, payables, deferred revenue, taxes, stock-based compensation and other working-capital changes behind the CFO/parent-profit ratio.",
+    "Current cash, investments, debt, operating reserve and share count after the latest annual anchor, including post-anchor dividends, buybacks, financing and dilution.",
+    "Management guidance or commentary reconciling reported EBIT to core operating profit and explaining margin and cash-conversion changes.",
+    "Fair values and liquidity or tax status of investments and any unrecognized non-operating assets, senior claims or minority interests.",
+    "Independent validation of the DCF assumptions, especially WACC, perpetual growth, stable ROIC, revenue growth, EBIT margin, capex, D&A and NWC ratio.",
+    "Filing-level verification of secondary feed fields and custom XBRL tags, including accounting scope and restatement review.",
+    "Interim results and segment-level cash conversion data to test whether the annual bridge remains representative."
+  ]
+}

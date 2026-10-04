@@ -1,0 +1,7 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNYHKD=X?interval=1d&range=1mo",
+  "retrieved_utc": "2026-10-03T11:12:31.782121+00:00",
+  "sha256": "ef334ba3defdbab15030f27f57c0074584dd29539603b14252a2c245251c3dcb",
+  "local_file": "8582de405abf9ee2f1fb359a7776d54dd76e3ef1bbd2abd0dfeac12c592abcbf.json",
+  "source_kind": "secondary_public_feed"
+}

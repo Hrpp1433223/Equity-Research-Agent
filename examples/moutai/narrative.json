@@ -1,0 +1,24 @@
+{
+  "sections": [
+    {
+      "title": "Why profitability and cash conversion changed",
+      "paragraphs": [
+        "The packet shows revenue rising through 2024, then declining to CNY 172,054.2 million in 2025 from CNY 174,144.1 million in 2024 [F03][F04]. EBIT margin was stable around 67.7–67.9% from 2022 to 2024, then eased to 66.3% in 2025 [F01][F02][F03][F04]. Parent net margin followed a similar path, while parent ROE fell to 34.5% in 2025 from 38.4% in 2024 [F03][F04]. Cash conversion, measured by CFO/parent profit, improved from 0.59x in 2022 to 1.07x in 2024 before weakening to 0.75x in 2025 [F01][F02][F03][F04]. The packet lacks segment, order, product, price, or cost-line evidence, so we cannot confidently attribute the margin and cash-conversion shifts to demand, pricing, mix, AI, or cost controls. Evidence that would distinguish these explanations includes disaggregated revenue by product/segment, volume and price data, order backlog, cost breakdowns, working capital line items (receivables, inventory, payables, deferred revenue/contract liabilities), and a cash flow statement reconciliation. The trade NWC proxy omits prepayments, contract assets and customer advances, and vendor operating-profit definitions may include investment or finance items, requiring filing reconciliation [L01]. Secondary feeds remain unverified [L01]. Without that evidence, the observed changes are descriptions, not causal attributions."
+      ]
+    },
+    {
+      "title": "How cash allocation, reinvestment and valuation assumptions affect value",
+      "paragraphs": [
+        "The DCF is an explicit assumption, not a forecast [C01]. The base value is CNY 722.44/share, bull CNY 912.15/share, bear CNY 559.34/share, versus a close of CNY 1,258.62/share on 2026-09-30; base upside is -42.6% [C01]. Because the base DCF is below the close, the model implies a discount to market value, not a premium [C01]. Terminal EV is 68.6% of value, so terminal assumptions are material [C01]. The model uses WACC 10.0%, perpetual growth 2.0%, stable ROIC 12.0%, revenue growth -1.2%, EBIT margin 66.3%, tax rate 25.7%, D&A ratio 1.3%, capex ratio 1.8%, and NWC ratio 33.4% [A01]. Scenario policy adjusts growth, margin, capex and NWC ratio [A01]. Cash allocation and reinvestment affect value through the annual bridge: cash CNY 51,690.6 million, investments CNY 0.0 million, operating cash reserve CNY 17,205.4 million, debt CNY 233.7 million, NCI CNY 9,321.4 million, and shares 1,252.270 million [A01]. However, these are frozen annual balances [L01]. Investments default to zero as policy, not fact [L01]. NCI is deducted at book value, not fair value [L01]. Post-anchor dividends, buybacks, financing and dilution are not bridged [L01]. Reporting and quote currency are both CNY at 1.000000 [X01]. Scenario values are assumptions, not probabilities or share-price forecasts [C01]. The net bridge is CNY 19.91/share [C01], but it does not offset these limitations."
+      ]
+    }
+  ],
+  "missing_evidence": [
+    "Segment, product, volume, price, order backlog, and cost-line detail to distinguish drivers of margin and cash-conversion changes.",
+    "Working capital line items: receivables, inventory, payables, deferred revenue/contract liabilities; the trade NWC proxy omits prepayments, contract assets and customer advances [L01].",
+    "Cash flow statement reconciliation and verification of secondary feeds against issuer filings [L01].",
+    "Current (post-anchor) cash, debt, share count, and corporate actions such as dividends, buybacks, financing, and dilution [L01].",
+    "Fair value of NCI and details of non-operating investments/assets; NCI is deducted at book value and investments default to zero as policy [L01].",
+    "Management commentary or other official evidence on operating drivers."
+  ]
+}

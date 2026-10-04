@@ -1,0 +1,686 @@
+{
+  "version": 1,
+  "security": {
+    "market": "SH",
+    "symbol": "600519",
+    "feed_symbol": "600519.SS",
+    "expected_quote_currency": "CNY",
+    "name": "Kweichow Moutai Co., Ltd.",
+    "reporting_currency": "CNY"
+  },
+  "as_of": "2026-10-03",
+  "quote": {
+    "close": 1258.6199951171875,
+    "currency": "CNY",
+    "date": "2026-09-30",
+    "source": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/600519.SS?interval=1d&range=1mo",
+      "retrieved_utc": "2026-10-03T11:12:26.638439+00:00",
+      "sha256": "4a67b32f14c240e0d65ac603cffb573e14cae590de82726a6f5fa108e3dc4b9b",
+      "local_file": "b77879f07a258ed546b97b4a8eb34b95c6e0d902b0cf4333d7f62536fcb9c0a2.json",
+      "source_kind": "secondary_public_feed"
+    }
+  },
+  "fx": {
+    "quote_units_per_reporting_unit": 1,
+    "date": "2026-09-30",
+    "source": null
+  },
+  "periods": [
+    {
+      "end": "2022-12-31",
+      "start": "2021-12-31",
+      "metrics": {
+        "da": 1676962688.03,
+        "debt": 443799098.07,
+        "ebit": 86544076613.98,
+        "nci": 7458040024.4,
+        "tax": 22325449790.3,
+        "parent_income": 62717467870.12,
+        "cost": 10093468616.63,
+        "inventory": 38824374236.24,
+        "revenue": 127553959355.97,
+        "receivables": 20937144.0,
+        "shares": 1256197800.0,
+        "assets": 254500826096.02,
+        "pretax": 87701489748.18,
+        "cash": 58274318733.23,
+        "capex": 5306546416.54,
+        "cfo": 36698595830.03,
+        "equity": 197480041239.46,
+        "payables": 2408371053.69
+      },
+      "refs": {
+        "da": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualDepreciationAndAmortization",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalDebt",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "ebit": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingIncome",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "nci": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualMinorityInterest",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "tax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTaxProvision",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "parent_income": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualNetIncome",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "cost": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCostOfRevenue",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "inventory": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualInventory",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalRevenue",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "receivables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsReceivable",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOrdinarySharesNumber",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "assets": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalAssets",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualPretaxIncome",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "cash": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCashAndCashEquivalents",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "capex": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCapitalExpenditure",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "cfo": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingCashFlow",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "equity": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualStockholdersEquity",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        },
+        "payables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsPayable",
+          "period_end": "2022-12-31",
+          "disclosure_date_verified": false
+        }
+      },
+      "reporting_currency": "CNY",
+      "published_date": null
+    },
+    {
+      "end": "2023-12-31",
+      "start": "2022-12-31",
+      "metrics": {
+        "da": 1920529698.14,
+        "debt": 323691113.52,
+        "ebit": 101958150728.79,
+        "nci": 7987897687.39,
+        "tax": 26141077412.01,
+        "parent_income": 74734071550.75,
+        "cost": 11867273851.78,
+        "inventory": 46435185061.53,
+        "revenue": 150560330316.45,
+        "receivables": 60373410.41,
+        "shares": 1256197800.0,
+        "assets": 272699660092.25,
+        "investments": 400712059.93,
+        "pretax": 103662553689.81,
+        "cash": 69070136376.12,
+        "capex": 2619755888.79,
+        "cfo": 66593247721.09,
+        "equity": 215668571607.43,
+        "payables": 3093091103.67
+      },
+      "refs": {
+        "da": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualDepreciationAndAmortization",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalDebt",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "ebit": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingIncome",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "nci": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualMinorityInterest",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "tax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTaxProvision",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "parent_income": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualNetIncome",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "cost": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCostOfRevenue",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "inventory": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualInventory",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalRevenue",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "receivables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsReceivable",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOrdinarySharesNumber",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "assets": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalAssets",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "investments": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOtherShortTermInvestments",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualPretaxIncome",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "cash": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCashAndCashEquivalents",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "capex": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCapitalExpenditure",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "cfo": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingCashFlow",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "equity": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualStockholdersEquity",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        },
+        "payables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsPayable",
+          "period_end": "2023-12-31",
+          "disclosure_date_verified": false
+        }
+      },
+      "reporting_currency": "CNY",
+      "published_date": null
+    },
+    {
+      "end": "2024-12-31",
+      "start": "2023-12-31",
+      "metrics": {
+        "da": 2064828064.78,
+        "debt": 425857527.96,
+        "ebit": 118276329989.35,
+        "nci": 8905330721.13,
+        "tax": 30303850168.56,
+        "parent_income": 86228146421.62,
+        "cost": 13789482367.98,
+        "inventory": 54343285157.47,
+        "revenue": 174144069958.25,
+        "receivables": 18974192.75,
+        "shares": 1256197800.0,
+        "assets": 298944579918.7,
+        "investments": 248513280.0,
+        "pretax": 119638578194.46,
+        "cash": 59295822956.89,
+        "capex": 4678712053.56,
+        "cfo": 92463692168.43,
+        "equity": 233105984399.47,
+        "payables": 3514969230.31
+      },
+      "refs": {
+        "da": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualDepreciationAndAmortization",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalDebt",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "ebit": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingIncome",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "nci": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualMinorityInterest",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "tax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTaxProvision",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "parent_income": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualNetIncome",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "cost": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCostOfRevenue",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "inventory": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualInventory",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalRevenue",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "receivables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsReceivable",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOrdinarySharesNumber",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "assets": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalAssets",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "investments": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOtherShortTermInvestments",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualPretaxIncome",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "cash": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCashAndCashEquivalents",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "capex": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCapitalExpenditure",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "cfo": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingCashFlow",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "equity": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualStockholdersEquity",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        },
+        "payables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsPayable",
+          "period_end": "2024-12-31",
+          "disclosure_date_verified": false
+        }
+      },
+      "reporting_currency": "CNY",
+      "published_date": null
+    },
+    {
+      "end": "2025-12-31",
+      "start": "2024-12-31",
+      "metrics": {
+        "da": 2238749319.79,
+        "debt": 233711179.82,
+        "ebit": 114072524657.5,
+        "nci": 9321442876.89,
+        "tax": 29444936771.41,
+        "parent_income": 82320067101.68,
+        "cost": 14892277570.91,
+        "inventory": 61427421796.18,
+        "revenue": 172054171890.91,
+        "receivables": 2609048.49,
+        "shares": 1252270215.0,
+        "assets": 303834844021.44,
+        "pretax": 114755261605.08,
+        "cash": 51690610946.5,
+        "capex": 3127594916.41,
+        "cfo": 61522204989.35,
+        "equity": 244637811032.18,
+        "payables": 4007309049.87
+      },
+      "refs": {
+        "da": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualDepreciationAndAmortization",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalDebt",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "ebit": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingIncome",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "nci": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualMinorityInterest",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "tax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTaxProvision",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "parent_income": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualNetIncome",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "cost": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCostOfRevenue",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "inventory": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualInventory",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalRevenue",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "receivables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsReceivable",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOrdinarySharesNumber",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "assets": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualTotalAssets",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualPretaxIncome",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "cash": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCashAndCashEquivalents",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "capex": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualCapitalExpenditure",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "cfo": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualOperatingCashFlow",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "equity": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualStockholdersEquity",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        },
+        "payables": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+          "field": "annualAccountsPayable",
+          "period_end": "2025-12-31",
+          "disclosure_date_verified": false
+        }
+      },
+      "reporting_currency": "CNY",
+      "published_date": null
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/600519.SS?interval=1d&range=1mo",
+      "retrieved_utc": "2026-10-03T11:12:26.638439+00:00",
+      "sha256": "4a67b32f14c240e0d65ac603cffb573e14cae590de82726a6f5fa108e3dc4b9b",
+      "local_file": "b77879f07a258ed546b97b4a8eb34b95c6e0d902b0cf4333d7f62536fcb9c0a2.json",
+      "source_kind": "secondary_public_feed"
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600519.SS?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+      "retrieved_utc": "2026-10-03T11:12:27.906215+00:00",
+      "sha256": "6637a465465f9e5526580194d97765f82472acc7e41f35fd1c7d4b9e403006d2",
+      "local_file": "3e6545c5eaf02c2572c46b6eb1376efdb7b42893a2b13cae2ca26402cce06f0b.json",
+      "source_kind": "secondary_public_feed"
+    }
+  ],
+  "warnings": [
+    "Secondary financial feeds are not independently verified against issuer filings; publication cutoff and restatement scope require review.",
+    "Annual shares and bridge balances are frozen at the latest annual end, not assumed to be current. Corporate actions since that date require review.",
+    "Trade working capital proxy omits unavailable prepayments, contract assets and customer advances.",
+    "A report is a research draft with explicit assumptions, not a brokerage recommendation."
+  ],
+  "status": "public_data_research_draft"
+}

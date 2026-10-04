@@ -1,0 +1,7 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/600519.SS?interval=1d&range=1mo",
+  "retrieved_utc": "2026-10-03T11:12:26.638439+00:00",
+  "sha256": "4a67b32f14c240e0d65ac603cffb573e14cae590de82726a6f5fa108e3dc4b9b",
+  "local_file": "b77879f07a258ed546b97b4a8eb34b95c6e0d902b0cf4333d7f62536fcb9c0a2.json",
+  "source_kind": "secondary_public_feed"
+}

@@ -1,0 +1,857 @@
+{
+  "version": 1,
+  "security": {
+    "market": "US",
+    "symbol": "NVDA",
+    "feed_symbol": "NVDA",
+    "expected_quote_currency": "USD",
+    "name": "NVIDIA Corporation",
+    "reporting_currency": "USD",
+    "cik": 1045810,
+    "official_name": "NVIDIA CORP"
+  },
+  "as_of": "2026-10-03",
+  "quote": {
+    "close": 233.9499969482422,
+    "currency": "USD",
+    "date": "2026-10-02",
+    "source": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=1mo",
+      "retrieved_utc": "2026-10-03T11:23:29.647876+00:00",
+      "sha256": "c33564514f6c1551ad586827d337aef420e2a2bcd009838f2e7647f31961510a",
+      "local_file": "06cf1edf5e8a5bf313043a7583851090c85343956d389cbcbc0133ca1d2508c0.json",
+      "source_kind": "secondary_public_feed"
+    }
+  },
+  "fx": {
+    "quote_units_per_reporting_unit": 1,
+    "date": "2026-10-02",
+    "source": null
+  },
+  "periods": [
+    {
+      "end": "2023-01-29",
+      "start": "2022-01-31",
+      "metrics": {
+        "cfo": 5641000000,
+        "cash": 3389000000,
+        "tax": -187000000,
+        "revenue": 26974000000,
+        "parent_income": 4368000000,
+        "assets": 41182000000,
+        "inventory": 5159000000,
+        "debt": 12031000000.0,
+        "shares": 2466000000,
+        "capex": 1833000000,
+        "da": 1544000000,
+        "payables": 1193000000,
+        "equity": 22101000000,
+        "deferred_revenue": 354000000.0,
+        "pretax": 4181000000,
+        "investments": 9907000000,
+        "ebit": 4224000000,
+        "receivables": 3827000000,
+        "cost": 11618000000
+      },
+      "refs": {
+        "cfo": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "cash": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CashAndCashEquivalentsAtCarryingValue",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "tax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeTaxExpenseBenefit",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "revenue": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Revenues",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "parent_income": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetIncomeLoss",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "assets": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Assets",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "inventory": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "InventoryNet",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualTotalDebt",
+          "period_end": "2023-01-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CommonStockSharesOutstanding",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "capex": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "PaymentsToAcquireProductiveAssets",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "da": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "DepreciationDepletionAndAmortization",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "payables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsPayableCurrent",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "equity": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "StockholdersEquity",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "deferred_revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualCurrentDeferredRevenue",
+          "period_end": "2023-01-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "investments": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "MarketableSecuritiesCurrent",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "ebit": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "OperatingIncomeLoss",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "receivables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsReceivableNetCurrent",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        },
+        "cost": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CostOfRevenue",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2023-01-29",
+          "form": "10-K"
+        }
+      },
+      "reporting_currency": "USD",
+      "published_date": "2025-02-26",
+      "vendor_period_end": "2023-01-31"
+    },
+    {
+      "end": "2024-01-28",
+      "start": "2023-01-30",
+      "metrics": {
+        "cfo": 28090000000,
+        "cash": 7280000000,
+        "tax": 4058000000,
+        "revenue": 60922000000,
+        "parent_income": 29760000000,
+        "assets": 65728000000,
+        "inventory": 5282000000,
+        "debt": 11056000000.0,
+        "shares": 24643000000,
+        "capex": 1069000000,
+        "da": 1508000000,
+        "payables": 2699000000,
+        "equity": 42978000000,
+        "deferred_revenue": 764000000.0,
+        "pretax": 33818000000,
+        "investments": 18704000000,
+        "ebit": 32972000000,
+        "receivables": 9999000000,
+        "cost": 16621000000
+      },
+      "refs": {
+        "cfo": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "cash": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CashAndCashEquivalentsAtCarryingValue",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "tax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeTaxExpenseBenefit",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "revenue": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Revenues",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "parent_income": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetIncomeLoss",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "assets": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Assets",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "inventory": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "InventoryNet",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualTotalDebt",
+          "period_end": "2024-01-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CommonStockSharesOutstanding",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "capex": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "PaymentsToAcquireProductiveAssets",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "da": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "DepreciationDepletionAndAmortization",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "payables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsPayableCurrent",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "equity": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "StockholdersEquity",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "deferred_revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualCurrentDeferredRevenue",
+          "period_end": "2024-01-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "investments": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "MarketableSecuritiesCurrent",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "ebit": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "OperatingIncomeLoss",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "receivables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsReceivableNetCurrent",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        },
+        "cost": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CostOfRevenue",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2024-01-28",
+          "form": "10-K"
+        }
+      },
+      "reporting_currency": "USD",
+      "published_date": "2026-02-25",
+      "vendor_period_end": "2024-01-31"
+    },
+    {
+      "end": "2025-01-26",
+      "start": "2024-01-29",
+      "metrics": {
+        "cfo": 64089000000,
+        "cash": 8589000000,
+        "tax": 11146000000,
+        "revenue": 130497000000,
+        "parent_income": 72880000000,
+        "assets": 111601000000,
+        "inventory": 10080000000,
+        "debt": 9982000000.0,
+        "shares": 24477000000,
+        "capex": 3236000000,
+        "da": 1864000000,
+        "payables": 6310000000,
+        "equity": 79327000000,
+        "deferred_revenue": 837000000.0,
+        "pretax": 84026000000,
+        "investments": 34621000000,
+        "ebit": 81453000000,
+        "receivables": 23065000000,
+        "cost": 32639000000
+      },
+      "refs": {
+        "cfo": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "cash": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CashAndCashEquivalentsAtCarryingValue",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "tax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeTaxExpenseBenefit",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "revenue": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Revenues",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "parent_income": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetIncomeLoss",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "assets": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Assets",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "inventory": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "InventoryNet",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualTotalDebt",
+          "period_end": "2025-01-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CommonStockSharesOutstanding",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "capex": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "PaymentsToAcquireProductiveAssets",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "da": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "DepreciationDepletionAndAmortization",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "payables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsPayableCurrent",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "equity": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "StockholdersEquity",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "deferred_revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualCurrentDeferredRevenue",
+          "period_end": "2025-01-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "investments": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "MarketableSecuritiesCurrent",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "ebit": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "OperatingIncomeLoss",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "receivables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsReceivableNetCurrent",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        },
+        "cost": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CostOfRevenue",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2025-01-26",
+          "form": "10-K"
+        }
+      },
+      "reporting_currency": "USD",
+      "published_date": "2026-02-25",
+      "vendor_period_end": "2025-01-31"
+    },
+    {
+      "end": "2026-01-25",
+      "start": "2025-01-27",
+      "metrics": {
+        "cfo": 102718000000,
+        "cash": 10605000000,
+        "tax": 21383000000,
+        "revenue": 215938000000,
+        "parent_income": 120067000000,
+        "assets": 206803000000,
+        "inventory": 21403000000,
+        "debt": 11040000000.0,
+        "shares": 24304000000,
+        "capex": 6042000000,
+        "da": 2843000000,
+        "payables": 9812000000,
+        "equity": 157293000000,
+        "deferred_revenue": 1379000000.0,
+        "pretax": 141450000000,
+        "investments": 51951000000.0,
+        "ebit": 130387000000,
+        "receivables": 38466000000,
+        "cost": 62475000000
+      },
+      "refs": {
+        "cfo": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "cash": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CashAndCashEquivalentsAtCarryingValue",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "tax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeTaxExpenseBenefit",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "revenue": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Revenues",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "parent_income": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "NetIncomeLoss",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "assets": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "Assets",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "inventory": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "InventoryNet",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "debt": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualTotalDebt",
+          "period_end": "2026-01-31",
+          "disclosure_date_verified": false
+        },
+        "shares": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CommonStockSharesOutstanding",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "capex": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "PaymentsToAcquireProductiveAssets",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "da": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "DepreciationDepletionAndAmortization",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "payables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsPayableCurrent",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "equity": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "StockholdersEquity",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "deferred_revenue": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualCurrentDeferredRevenue",
+          "period_end": "2026-01-31",
+          "disclosure_date_verified": false
+        },
+        "pretax": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "investments": {
+          "source_kind": "secondary_public_feed",
+          "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+          "field": "annualOtherShortTermInvestments",
+          "period_end": "2026-01-31",
+          "disclosure_date_verified": false
+        },
+        "ebit": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "OperatingIncomeLoss",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "receivables": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "AccountsReceivableNetCurrent",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        },
+        "cost": {
+          "source_kind": "official_sec",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "tag": "CostOfRevenue",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "period_end": "2026-01-25",
+          "form": "10-K"
+        }
+      },
+      "reporting_currency": "USD",
+      "published_date": "2026-02-25",
+      "vendor_period_end": "2026-01-31"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=1mo",
+      "retrieved_utc": "2026-10-03T11:23:29.647876+00:00",
+      "sha256": "c33564514f6c1551ad586827d337aef420e2a2bcd009838f2e7647f31961510a",
+      "local_file": "06cf1edf5e8a5bf313043a7583851090c85343956d389cbcbc0133ca1d2508c0.json",
+      "source_kind": "secondary_public_feed"
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+      "retrieved_utc": "2026-10-03T11:23:30.796068+00:00",
+      "sha256": "85818afa02b0f93748ef7d872fccc77751b0a314ec88bba6164582c5f564babf",
+      "local_file": "73c2c26ef117da67caa946654553fa4b188fca36e75c5f8b255ffed25b99785e.json",
+      "source_kind": "secondary_public_feed"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?keysTyped=NVDA",
+      "retrieved_utc": "2026-10-03T11:23:31.562686+00:00",
+      "sha256": "1a28192ce9ea9b9d3f1197e7280e54b2a59869c9fbf3580dd151309739f9f14a",
+      "local_file": "04352507ea02601683dd6a8c8b794d5273d6df0e245880bea7e8223392737eab.json",
+      "source_kind": "official_sec"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "retrieved_utc": "2026-10-03T11:23:33.915394+00:00",
+      "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+      "local_file": "b986f6790669a272e82d0ba4fd7845bbfead210673ba38d36a9ab57d506a2f65.json",
+      "source_kind": "official_sec"
+    }
+  ],
+  "warnings": [
+    "SEC tags are selected by matching period and annual duration. Unmatched fields remain explicitly marked secondary; custom XBRL tags are not guessed.",
+    "Secondary financial feeds are not independently verified against issuer filings; publication cutoff and restatement scope require review.",
+    "Annual shares and bridge balances are frozen at the latest annual end, not assumed to be current. Corporate actions since that date require review.",
+    "Trade working capital proxy omits unavailable prepayments, contract assets and customer advances.",
+    "A report is a research draft with explicit assumptions, not a brokerage recommendation."
+  ],
+  "status": "public_data_research_draft"
+}

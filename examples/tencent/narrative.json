@@ -1,0 +1,30 @@
+{
+  "sections": [
+    {
+      "title": "Why Profitability and Cash Conversion Changed",
+      "paragraphs": [
+        "Revenue expanded from CNY 554,552.0 million in 2022 to CNY 751,766.0 million in 2025 [F01][F04], while EBIT margin rose from 20.5% to 33.1% [F01][F04]. Parent net margin did not follow a straight path: 33.9% in 2022, 18.9% in 2023, 29.4% in 2024 and 29.9% in 2025 [F01][F02][F03][F04]. The gap between EBIT margin and parent net margin implies non-operating items, associates, taxes or non-controlling interests moved parent profit differently from operating profit, but no segment, product or management evidence is supplied to identify the driver [L01]. Parent ROE was not available for 2022, then 15.1%, 21.8% and 21.1% [F01][F04].",
+        "Cash conversion: CFO/parent profit was 0.78x in 2022, 1.93x in 2023, 1.33x in 2024 and 1.35x in 2025 [F01][F02][F03][F04]. The 2023 spike may reflect working-capital release, non-cash items or timing, but cash-flow detail is absent [L01]. The A01 NWC ratio of -9.4% is an assumption, not evidence of a cash release; release depends on the change in the NWC balance as revenue changes, and the trade proxy omits prepayments, contract assets and customer advances [A01][L01]. Annual bridge observations are in A01, but current balances and post-anchor changes are unverified [L01]. Without segment, orders or product evidence, we cannot confidently attribute changes to AI, pricing, mix, demand or cost controls [L01]. Evidence to distinguish: segment margins, product-level gross margin, operating expense breakdown, working-capital detail, cash-flow reconciliation and management guidance."
+      ]
+    },
+    {
+      "title": "How Cash Allocation, Reinvestment and Valuation Assumptions Affect Value",
+      "paragraphs": [
+        "The annual bridge shows cash of CNY 141,041.0 million, investments of CNY 285,712.0 million, an operating cash reserve of CNY 75,176.6 million, debt of CNY 406,399.0 million and NCI of CNY 86,913.0 million, with shares at 9,032.821 million [A01]. These frozen annual balances are not current amounts; dividends, buybacks, financing, dilution and interim results since the balance date are not bridged [L01]. Cash allocation and reinvestment therefore matter through the base assumptions: revenue growth of 13.9%, EBIT margin of 33.1% and WACC of 10.0% [A01]. Bull and bear scenarios adjust growth, margin, capex and NWC by the stated points, terminal margins following each case [A01]. Scenario values are assumptions, not probabilities or forecasts of share-price paths.",
+        "In C01, the base DCF value is HKD 372.11/share against a close of HKD 421.20/share, base upside -11.7%; bull and bear values are HKD 494.73/share and HKD 262.39/share [C01]. Terminal EV is 74.7% of value and the net bridge is HKD -18.33/share, so terminal assumptions and bridge items—debt, NCI and operating reserve—are material [C01]. Reporting is CNY while quotes are HKD, with a conversion rate of 1.168400 on 2026-10-02 [X01]. NCI is deducted at book value, not fair value; unrecognized non-operating stakes and senior claims may change value [L01]. The DCF discount is not proof that the market price is too high given frozen balances, omitted investments, unverified post-anchor distributions, dilution and cutoff limits [L01]."
+      ]
+    }
+  ],
+  "missing_evidence": [
+    "Segment-level revenue, margin and cost disclosures to distinguish whether EBIT and parent net margin changes came from AI, pricing, mix, demand or cost controls.",
+    "Product-level gross margin and operating expense breakdown to reconcile the gap between EBIT margin and parent net margin.",
+    "Cash-flow statement reconciliation detailing CFO versus parent profit, including working-capital movements and non-cash adjustments.",
+    "Working-capital detail with prepayments, contract assets and customer advances omitted by the trade NWC proxy [L01].",
+    "Current cash, debt, investments, NCI and share count after the latest annual balance date, including dividends, buybacks, financing, dilution and interim results [L01].",
+    "Fair values for NCI and unrecognized non-operating stakes, assets and senior claims [L01].",
+    "Reconciliation of vendor EBIT definitions to filing-reported operating profit, as investment or finance items may be included [L01].",
+    "Management guidance or commentary on revenue growth, margin, capex and cash allocation.",
+    "Current share count and dilution forecasts, since annual shares are frozen at 9,032.821 million [A01][L01].",
+    "Post-balance-date shareholder distributions and financing, since they are not bridged [L01]."
+  ]
+}

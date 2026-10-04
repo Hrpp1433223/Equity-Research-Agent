@@ -1,0 +1,520 @@
+{
+  "release": "2026-10-04",
+  "public_deployment": false,
+  "reports": [
+    "NVIDIA NVDA (US)",
+    "Tencent 00700 (HK)",
+    "Kweichow Moutai 600519 (SH)"
+  ],
+  "report_formats": [
+    "docx",
+    "pdf"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 182,
+      "sha256": "fa2ea254c20261be9a24eadf17c1a8f72e2a3a727741312d849c3d352808f8cf"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 114,
+      "sha256": "f904f5cb4277a7e2ff40edc16e8fd1cbc4777754404959a3f16052c3703201d9"
+    },
+    {
+      "path": "configs/company_report_layout.json",
+      "bytes": 253,
+      "sha256": "0d8f6e98aa6d7c37dd44582f5ddb9c5ebb9adc3046b239155522bce3110e7340"
+    },
+    {
+      "path": "configs/execution.json",
+      "bytes": 810,
+      "sha256": "664b4aeaa34453de5bdacb82693464817c1a4130510e419ea16ba3399816dcc3"
+    },
+    {
+      "path": "configs/llm.yaml",
+      "bytes": 666,
+      "sha256": "59a24f21a5566c9df50b4a34f778d0cba6eec3973a33f7f85f842e57dbe323b4"
+    },
+    {
+      "path": "configs/report_theme.yaml",
+      "bytes": 274,
+      "sha256": "5ea2c4d1bc667d361afec1b0f282085ae407f7a101d5715a37844b6d68006b01"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/assets/moutai/calculation.png",
+      "bytes": 149946,
+      "sha256": "979d13e36fdf9daded6b6e78eac712dacacfeac8186c6cae16e63fecfb158725"
+    },
+    {
+      "path": "docs/assets/moutai/cover.png",
+      "bytes": 195214,
+      "sha256": "184c21e2fa7ef2b2a2b49a3819b21a588db4bbbb31a446589a72fffc785fce09"
+    },
+    {
+      "path": "docs/assets/moutai/dcf.png",
+      "bytes": 143186,
+      "sha256": "f5782637fad670698f1fa7c66d1419c5626ecde187e40f31ea982074dcd031de"
+    },
+    {
+      "path": "docs/assets/nvda/calculation.png",
+      "bytes": 149994,
+      "sha256": "2e7a5c12c2604dcce10007466154ff8e91fbb96496e692dd8bcd2a60c80d6653"
+    },
+    {
+      "path": "docs/assets/nvda/cover.png",
+      "bytes": 191123,
+      "sha256": "34caa8ff38f3e5bf1bb9f35b5c5af79b3076298070d5129624f1668926d759f1"
+    },
+    {
+      "path": "docs/assets/nvda/dcf.png",
+      "bytes": 139974,
+      "sha256": "ff4eeb7f511dd72bbc7adc7021e8c0a32fd63ef37a52453b4f814e87b91da42b"
+    },
+    {
+      "path": "docs/assets/readme/assumption-discussion.png",
+      "bytes": 149678,
+      "sha256": "ce7970390706a2badce4c1f53787f2411bb02e7d33c1392f1ec0dc30ebfacbe2"
+    },
+    {
+      "path": "docs/assets/readme/banner.svg",
+      "bytes": 2516,
+      "sha256": "bc6ccbea3525f4e82630706c2382895d98aa6841897d37de0cca6a76a0c2283b"
+    },
+    {
+      "path": "docs/assets/readme/workflow-demo.gif",
+      "bytes": 488793,
+      "sha256": "a250006d6dded10078a91f1f4bf89f470626e8c7e994f9e10077409b75a17526"
+    },
+    {
+      "path": "docs/assets/readme/workspace.png",
+      "bytes": 102728,
+      "sha256": "699247cdd6cc88f9171050e4a9606209daa4d91e143cf75380709cde95d557b8"
+    },
+    {
+      "path": "docs/assets/site.css",
+      "bytes": 11292,
+      "sha256": "7e3c39f1a0c0d9b67110e328f4458efdd15b02afd5b7143e458152e844040465"
+    },
+    {
+      "path": "docs/assets/site.js",
+      "bytes": 3527,
+      "sha256": "128993fd2bee5cc4455fbbe2a03fe8dff2940b583f772d1252d12a7c37f9ad89"
+    },
+    {
+      "path": "docs/assets/tencent/calculation.png",
+      "bytes": 152798,
+      "sha256": "6e68096610fc53233bcada817451976eecbdc17ed99d0793985b4ad894e59fcd"
+    },
+    {
+      "path": "docs/assets/tencent/cover.png",
+      "bytes": 190007,
+      "sha256": "26d795ef2faa0470e3744b64d9f7856553fe2fb0bda237845e211171066094b8"
+    },
+    {
+      "path": "docs/assets/tencent/dcf.png",
+      "bytes": 141098,
+      "sha256": "1fa90ae40657c3a4d25155fa3af06b28eacca341df948a447305f3a4440fd34a"
+    },
+    {
+      "path": "docs/GITHUB_UPLOAD_GUIDE_ZH.md",
+      "bytes": 1295,
+      "sha256": "04d2014c9a9d76a3a03578007a3ef5bc7162bac02c6549d587cb10f5d3c6eead"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 10436,
+      "sha256": "c54882377984319540ef48f1f97ac730296fcbe30459c4acd4f155ea7f50e71b"
+    },
+    {
+      "path": "docs/MULTI_MARKET_GUIDE_ZH.html",
+      "bytes": 10538,
+      "sha256": "2d4aaad0f40a2dcaf6b818b76c449b9dd2d94d108399f3e4792501fa1096781b"
+    },
+    {
+      "path": "docs/report-data.json",
+      "bytes": 1167,
+      "sha256": "d2ac57f5b37b52467687a67de079d1b47697f14f593c6c48ddb2a9cfc256b2a3"
+    },
+    {
+      "path": "docs/reports/moutai/moutai.docx",
+      "bytes": 111760,
+      "sha256": "60458b9a482b91c1a0f1b08461ab5085af9748af7d709cadec75923fe62a1549"
+    },
+    {
+      "path": "docs/reports/moutai/moutai.pdf",
+      "bytes": 393416,
+      "sha256": "81071d61e66d2fde9e47bff812792020b2ef2264a54441086bcfe76ff372056e"
+    },
+    {
+      "path": "docs/reports/moutai/validation.json",
+      "bytes": 1178,
+      "sha256": "30b9a26995f495708cf21d8e748b0feb68f208074e1dbd785446eb2117972cab"
+    },
+    {
+      "path": "docs/reports/nvda/nvda.docx",
+      "bytes": 108372,
+      "sha256": "4c5afb45f16e151b01f98e950e9a4318d2036ed164408c7b3d08731bf99068f0"
+    },
+    {
+      "path": "docs/reports/nvda/nvda.pdf",
+      "bytes": 393899,
+      "sha256": "8d1f4237f05134f683d4a5661ffcf466eb0d03280aa843b763a98e281248ca3c"
+    },
+    {
+      "path": "docs/reports/nvda/validation.json",
+      "bytes": 1178,
+      "sha256": "c59ad8980ae9a79411ea22b580b76461d7ee40b186c6ca0d656b9b87a4fd503b"
+    },
+    {
+      "path": "docs/reports/tencent/tencent.docx",
+      "bytes": 108212,
+      "sha256": "a99fd28b1a4bdc9ed450da7c7b5a85116335db5d923a3b438dffd36234184ff1"
+    },
+    {
+      "path": "docs/reports/tencent/tencent.pdf",
+      "bytes": 395549,
+      "sha256": "8cff66099362b68c9e33e4eda74882433c1a0d317f50126aa701a6223c2ae859"
+    },
+    {
+      "path": "docs/reports/tencent/validation.json",
+      "bytes": 1178,
+      "sha256": "e88129d9581bcce469be69f817221e38e85dedf8681c6f51e221b5e40a93cd0f"
+    },
+    {
+      "path": "docs/validation.json",
+      "bytes": 5675,
+      "sha256": "100f23e58e1cc83920363c90db1bdc1237417c8523ed7ab8bd04e698f4321e7a"
+    },
+    {
+      "path": "equity_research_agent/__init__.py",
+      "bytes": 89,
+      "sha256": "3e0cb175e6dee27fb2ebf19298ed5267e9c31cb41becd8cc1e033ad794edccc1"
+    },
+    {
+      "path": "equity_research_agent/advisor_ui.js",
+      "bytes": 6588,
+      "sha256": "dc9f5f4f729f22227000025bc3027a5a98fb625f5bf5e1b3699efefe84236ddb"
+    },
+    {
+      "path": "equity_research_agent/app.py",
+      "bytes": 12610,
+      "sha256": "6372112a0927a6dee974b67b8d86d9c8deca06f7c22ee0b0b8013c3aad0ec7d6"
+    },
+    {
+      "path": "equity_research_agent/assumption_advisor.py",
+      "bytes": 13842,
+      "sha256": "eeed4626d935dc6e1c6633d6ca08723e8cf303ec22b668f98310bdc4e42f8c27"
+    },
+    {
+      "path": "equity_research_agent/budget.py",
+      "bytes": 4166,
+      "sha256": "8a23e8f3d364c083f69b5f8f992ee92d88488ba3adc57c9ff4270ffc40d0d122"
+    },
+    {
+      "path": "equity_research_agent/charts.py",
+      "bytes": 6045,
+      "sha256": "d367d8ce7a12587189f42a22dbea5ac152a9245a20de4b227b4ce9918b15b115"
+    },
+    {
+      "path": "equity_research_agent/cli.py",
+      "bytes": 3605,
+      "sha256": "7cd2ba087a01b298ccbaf25cce9dbb9c7d4130a2eb694a6695e9163f18235aa1"
+    },
+    {
+      "path": "equity_research_agent/company_layout.py",
+      "bytes": 21759,
+      "sha256": "69e193336ded458d1f17f2ebfeaf71b8e83b165889d7bffb714d126ecf28e945"
+    },
+    {
+      "path": "equity_research_agent/company_reports.py",
+      "bytes": 24357,
+      "sha256": "a38aca50bddc6de41f304b5b31be08262b9a1b5ed06367a053e48b657c93cd32"
+    },
+    {
+      "path": "equity_research_agent/company_ui.html",
+      "bytes": 12337,
+      "sha256": "67dcc0759ce647664cc79fb18443680ac2fbb78be005581cc73bb10acd834bcb"
+    },
+    {
+      "path": "equity_research_agent/finance.py",
+      "bytes": 6210,
+      "sha256": "60958fd13a9157e4d6c0c66d3e6ffd5a3502c62f2b164422442bfd9c2d3db5b8"
+    },
+    {
+      "path": "equity_research_agent/llm_config.py",
+      "bytes": 3201,
+      "sha256": "c4387e45d70913be9478ca9a8b410b936dea115d85de240991785f400c6d1481"
+    },
+    {
+      "path": "equity_research_agent/markets.py",
+      "bytes": 13952,
+      "sha256": "8572f13bdd3ceca3ffface11332f625fbf11c55c723c4a465d793ac139d1dc65"
+    },
+    {
+      "path": "equity_research_agent/providers.py",
+      "bytes": 3304,
+      "sha256": "1c8527157963b950fd8fdf6773169a14cb9daeeee915008f1758fb2ed69c7ace"
+    },
+    {
+      "path": "equity_research_agent/qwen_config.py",
+      "bytes": 1948,
+      "sha256": "39541c0e55bd687a0d036d01544122f913bf2feb95bb1fc6cfd073b4b411ff5d"
+    },
+    {
+      "path": "equity_research_agent/reporting.py",
+      "bytes": 9961,
+      "sha256": "8c27539839429ef0965bbedf1e9e6151c821cf932bdc6ecddac1592283b6db7c"
+    },
+    {
+      "path": "examples/moutai/analysis_results.json",
+      "bytes": 27966,
+      "sha256": "ac6b3c129974a45e76fb08afc847f8ffa25e6c1e3e47ad8a9c804aaffa60e369"
+    },
+    {
+      "path": "examples/moutai/company_snapshot.json",
+      "bytes": 75222,
+      "sha256": "39017390bf313b11a548df0914f219b580f6935629b11a9a868b07590afa174e"
+    },
+    {
+      "path": "examples/moutai/data/3e6545c5eaf02c2572c46b6eb1376efdb7b42893a2b13cae2ca26402cce06f0b.json",
+      "bytes": 13212,
+      "sha256": "6637a465465f9e5526580194d97765f82472acc7e41f35fd1c7d4b9e403006d2"
+    },
+    {
+      "path": "examples/moutai/data/3e6545c5eaf02c2572c46b6eb1376efdb7b42893a2b13cae2ca26402cce06f0b.source.json",
+      "bytes": 984,
+      "sha256": "1213e29a448f80d33fb46ea290c56ac9d25467855c1b1f4724f6a4d658b12708"
+    },
+    {
+      "path": "examples/moutai/data/b77879f07a258ed546b97b4a8eb34b95c6e0d902b0cf4333d7f62536fcb9c0a2.json",
+      "bytes": 3330,
+      "sha256": "4a67b32f14c240e0d65ac603cffb573e14cae590de82726a6f5fa108e3dc4b9b"
+    },
+    {
+      "path": "examples/moutai/data/b77879f07a258ed546b97b4a8eb34b95c6e0d902b0cf4333d7f62536fcb9c0a2.source.json",
+      "bytes": 368,
+      "sha256": "fef05c16a5d8413b7f2733e20b46391112f45e65872a3ed10518a33d09660b9a"
+    },
+    {
+      "path": "examples/moutai/data/company_snapshot.json",
+      "bytes": 75222,
+      "sha256": "39017390bf313b11a548df0914f219b580f6935629b11a9a868b07590afa174e"
+    },
+    {
+      "path": "examples/moutai/narrative.json",
+      "bytes": 3852,
+      "sha256": "2dde99bc2e06fe3f9e297db70d0e18b30e9d01806c1c68d6370553fe25e42fef"
+    },
+    {
+      "path": "examples/nvda/analysis_results.json",
+      "bytes": 27154,
+      "sha256": "041b9a2eecc11a4c18f0c17d7fa2462445df8d31c071006e626628f5d2f7d87b"
+    },
+    {
+      "path": "examples/nvda/company_snapshot.json",
+      "bytes": 39400,
+      "sha256": "6e641af9ae1a8507c5a98700da9a3ba4ba0ef9279fafce07c085e307f0fdbaf1"
+    },
+    {
+      "path": "examples/nvda/data/04352507ea02601683dd6a8c8b794d5273d6df0e245880bea7e8223392737eab.json",
+      "bytes": 698,
+      "sha256": "1a28192ce9ea9b9d3f1197e7280e54b2a59869c9fbf3580dd151309739f9f14a"
+    },
+    {
+      "path": "examples/nvda/data/04352507ea02601683dd6a8c8b794d5273d6df0e245880bea7e8223392737eab.source.json",
+      "bytes": 333,
+      "sha256": "4d7138f142b81b2b086580cb70f668c0bbaeffd223c6191872ee262c1ba72d4f"
+    },
+    {
+      "path": "examples/nvda/data/06cf1edf5e8a5bf313043a7583851090c85343956d389cbcbc0133ca1d2508c0.json",
+      "bytes": 3516,
+      "sha256": "c33564514f6c1551ad586827d337aef420e2a2bcd009838f2e7647f31961510a"
+    },
+    {
+      "path": "examples/nvda/data/06cf1edf5e8a5bf313043a7583851090c85343956d389cbcbc0133ca1d2508c0.source.json",
+      "bytes": 363,
+      "sha256": "9f41fca5eef05c74be402b45e0bb66ac505d6e69a396471dcb6e1f9c4dacd1e4"
+    },
+    {
+      "path": "examples/nvda/data/73c2c26ef117da67caa946654553fa4b188fca36e75c5f8b255ffed25b99785e.json",
+      "bytes": 14954,
+      "sha256": "85818afa02b0f93748ef7d872fccc77751b0a314ec88bba6164582c5f564babf"
+    },
+    {
+      "path": "examples/nvda/data/73c2c26ef117da67caa946654553fa4b188fca36e75c5f8b255ffed25b99785e.source.json",
+      "bytes": 979,
+      "sha256": "37aed10ae323f416db34ee0adfce16487267a1e913e2826ce9089ab16bcdba7a"
+    },
+    {
+      "path": "examples/nvda/data/b986f6790669a272e82d0ba4fd7845bbfead210673ba38d36a9ab57d506a2f65.json",
+      "bytes": 4092966,
+      "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff"
+    },
+    {
+      "path": "examples/nvda/data/b986f6790669a272e82d0ba4fd7845bbfead210673ba38d36a9ab57d506a2f65.source.json",
+      "bytes": 339,
+      "sha256": "c396b1e7505b89ea37dbeedf3240cafdfff2fa7ea217d275329e48fbcd92a016"
+    },
+    {
+      "path": "examples/nvda/data/c7987409c1580ae8d7ba16c4c4a9402a9b147baca720c34c9bc95d8bd8f02d80.json",
+      "bytes": 14954,
+      "sha256": "85818afa02b0f93748ef7d872fccc77751b0a314ec88bba6164582c5f564babf"
+    },
+    {
+      "path": "examples/nvda/data/c7987409c1580ae8d7ba16c4c4a9402a9b147baca720c34c9bc95d8bd8f02d80.source.json",
+      "bytes": 979,
+      "sha256": "558a454514ef1a06cbd23f990ae5212f87eb731e612ff77e833c798d210f36d6"
+    },
+    {
+      "path": "examples/nvda/data/company_snapshot.json",
+      "bytes": 39400,
+      "sha256": "6e641af9ae1a8507c5a98700da9a3ba4ba0ef9279fafce07c085e307f0fdbaf1"
+    },
+    {
+      "path": "examples/nvda/narrative.json",
+      "bytes": 4637,
+      "sha256": "3359693c83480c0265437904be9eff67fcd04c961a0ec4c462d9b4600a515dfd"
+    },
+    {
+      "path": "examples/tencent/analysis_results.json",
+      "bytes": 27762,
+      "sha256": "31dcf8344164f9c7b683e85732e972a577fa884901b879366bde5d14358eeafc"
+    },
+    {
+      "path": "examples/tencent/company_snapshot.json",
+      "bytes": 78439,
+      "sha256": "ac188f023581938f2a43edcbb0d1b8e8936beee73e05616eeacec595ebd232f6"
+    },
+    {
+      "path": "examples/tencent/data/690556a69b12e3a2468538231d5899b77b4d83355b2f5b275a025b14aa17dda2.json",
+      "bytes": 156950,
+      "sha256": "69bbbd6fff973ce72729287de8bccf5d4fcc045b7a99943e5d394685758d0b50"
+    },
+    {
+      "path": "examples/tencent/data/690556a69b12e3a2468538231d5899b77b4d83355b2f5b275a025b14aa17dda2.source.json",
+      "bytes": 568,
+      "sha256": "0d2303cd0bcb6bb02620e651b56b49d84c8654af0393444b1634a0b502fb14c0"
+    },
+    {
+      "path": "examples/tencent/data/8582de405abf9ee2f1fb359a7776d54dd76e3ef1bbd2abd0dfeac12c592abcbf.json",
+      "bytes": 3719,
+      "sha256": "ef334ba3defdbab15030f27f57c0074584dd29539603b14252a2c245251c3dcb"
+    },
+    {
+      "path": "examples/tencent/data/8582de405abf9ee2f1fb359a7776d54dd76e3ef1bbd2abd0dfeac12c592abcbf.source.json",
+      "bytes": 367,
+      "sha256": "47eaa9817d212eb102b4edbe1f93572b37700103638d9d5ce556a71407583c6b"
+    },
+    {
+      "path": "examples/tencent/data/9eb8663cf3fd143d5b9f9ac3f19cc8781c5bf979a5a75c57939f8f47425a5901.json",
+      "bytes": 15719,
+      "sha256": "883172b6f6585272b66c334a76dc487d0316acacac8eac5b159502c67eb7bf35"
+    },
+    {
+      "path": "examples/tencent/data/9eb8663cf3fd143d5b9f9ac3f19cc8781c5bf979a5a75c57939f8f47425a5901.source.json",
+      "bytes": 982,
+      "sha256": "844c9b1a6eba85c9ce066c9627ad2a4c0d70022d73132270a11e7451cc861a2c"
+    },
+    {
+      "path": "examples/tencent/data/c7c61b9a298f3cd34aa4fc9fb7ecc4cd9ab29636196972ed8fcebef45866ea83.json",
+      "bytes": 3181,
+      "sha256": "aae6888ff4d49b50f7cb8642725fd25a12c45fab64edfbe2335b947bb132db7f"
+    },
+    {
+      "path": "examples/tencent/data/c7c61b9a298f3cd34aa4fc9fb7ecc4cd9ab29636196972ed8fcebef45866ea83.source.json",
+      "bytes": 366,
+      "sha256": "a9ac2fb94d8f481c12bc5b9336724294053d7f1a2edaf368809433e0fb5f1ecc"
+    },
+    {
+      "path": "examples/tencent/data/company_snapshot.json",
+      "bytes": 78439,
+      "sha256": "ac188f023581938f2a43edcbb0d1b8e8936beee73e05616eeacec595ebd232f6"
+    },
+    {
+      "path": "examples/tencent/narrative.json",
+      "bytes": 4685,
+      "sha256": "3d13f2d49cabccc9cfe413cea4fe0eecc7dcd24986d23dc7c9f8bd0fe94482f8"
+    },
+    {
+      "path": "prompts/assumption_discussion_en.txt",
+      "bytes": 2731,
+      "sha256": "e0579189a4d8d357ab72f52d0389c8517bcfc82bfa359ec67ac2f6994f98864b"
+    },
+    {
+      "path": "prompts/multi_market_analysis_en.txt",
+      "bytes": 2906,
+      "sha256": "e212b7b33724542a641c2b303eb15c57daabd1bcbff3b7a06ee1a741eb28eb00"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 648,
+      "sha256": "37d803ee6b815c0d28198c217d48c6e9db5a03a403a8ac5e1e9c92866ff4bf88"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9589,
+      "sha256": "b1b4e9d1b32ec95679e6bfdd107296c9a509ffae112916bf9396a9d40ad15fe4"
+    },
+    {
+      "path": "Start Workspace.cmd",
+      "bytes": 131,
+      "sha256": "1a87ae12c7bb6dbfd2b0f7c77f9ce72e63182175a74709fedf373bf6066d1c54"
+    },
+    {
+      "path": "tests/fixtures/multi_market/HK_00700.json",
+      "bytes": 78439,
+      "sha256": "ac188f023581938f2a43edcbb0d1b8e8936beee73e05616eeacec595ebd232f6"
+    },
+    {
+      "path": "tests/fixtures/multi_market/SH_600519.json",
+      "bytes": 75222,
+      "sha256": "39017390bf313b11a548df0914f219b580f6935629b11a9a868b07590afa174e"
+    },
+    {
+      "path": "tests/fixtures/multi_market/US_NVDA.json",
+      "bytes": 39400,
+      "sha256": "6e641af9ae1a8507c5a98700da9a3ba4ba0ef9279fafce07c085e307f0fdbaf1"
+    },
+    {
+      "path": "tests/test_advisor_http.py",
+      "bytes": 3549,
+      "sha256": "3513dd30599e3fc8bcbc174c0a2171568506e5b4f8ecb9fa7bad9cd53ca27246"
+    },
+    {
+      "path": "tests/test_assumption_advisor.py",
+      "bytes": 3283,
+      "sha256": "75cc5fd6c3190a0d9594dd06967320fae5b755e7390296c4ec424430b6c324a4"
+    },
+    {
+      "path": "tests/test_budget.py",
+      "bytes": 1617,
+      "sha256": "bc66452873815378d2433e3658a6bb274698826afa223b7b3e289dcb0f45f87d"
+    },
+    {
+      "path": "tests/test_company_layout.py",
+      "bytes": 1083,
+      "sha256": "ee81f675f94e31ab0f19d7962ba285eeab5c89fc48f800547915d016d98fcba1"
+    },
+    {
+      "path": "tests/test_company_reports.py",
+      "bytes": 2656,
+      "sha256": "affd328d944ab9b146e7f16cdeb2ca08fda9d2c21af14ef9af771066a7de0513"
+    },
+    {
+      "path": "tests/test_finance.py",
+      "bytes": 5429,
+      "sha256": "861bfbcd158f03fec68462fcdcecf64f108a285d4dbcc687010bdf1b46028f06"
+    },
+    {
+      "path": "tools/convert_word.ps1",
+      "bytes": 878,
+      "sha256": "a9479bed8beedb384ed472efa0baae6ac406bb92dd0f1bb33ef9d65acd766938"
+    }
+  ]
+}

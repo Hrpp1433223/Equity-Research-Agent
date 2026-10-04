@@ -1,0 +1,7 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=1mo",
+  "retrieved_utc": "2026-10-03T11:23:29.647876+00:00",
+  "sha256": "c33564514f6c1551ad586827d337aef420e2a2bcd009838f2e7647f31961510a",
+  "local_file": "06cf1edf5e8a5bf313043a7583851090c85343956d389cbcbc0133ca1d2508c0.json",
+  "source_kind": "secondary_public_feed"
+}

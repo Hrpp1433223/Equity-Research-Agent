@@ -1,0 +1,7 @@
+{
+  "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/NVDA?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791026609",
+  "retrieved_utc": "2026-10-03T11:23:30.796068+00:00",
+  "sha256": "85818afa02b0f93748ef7d872fccc77751b0a314ec88bba6164582c5f564babf",
+  "local_file": "73c2c26ef117da67caa946654553fa4b188fca36e75c5f8b255ffed25b99785e.json",
+  "source_kind": "secondary_public_feed"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://datacenter.eastmoney.com/securities/api/data/v1/get?reportName=RPT_HKF10_FN_BALANCE_PC&columns=ALL&filter=%28SECUCODE%3D%2200700.HK%22%29%28DATE_TYPE_CODE%3D%22001%22%29&pageSize=500&pageNumber=1&sortColumns=REPORT_DATE%2CSTD_ITEM_CODE&sortTypes=-1%2C1&source=F10&client=PC",
+  "retrieved_utc": "2026-10-03T11:12:30.698496+00:00",
+  "sha256": "69bbbd6fff973ce72729287de8bccf5d4fcc045b7a99943e5d394685758d0b50",
+  "local_file": "690556a69b12e3a2468538231d5899b77b4d83355b2f5b275a025b14aa17dda2.json",
+  "source_kind": "secondary_public_feed"
+}

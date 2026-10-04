@@ -1,0 +1,7 @@
+{
+  "url": "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/0700.HK?type=annualTotalRevenue%2CannualOperatingIncome%2CannualNetIncome%2CannualTotalAssets%2CannualStockholdersEquity%2CannualCashAndCashEquivalents%2CannualOtherShortTermInvestments%2CannualTotalDebt%2CannualOrdinarySharesNumber%2CannualOperatingCashFlow%2CannualCapitalExpenditure%2CannualDepreciationAndAmortization%2CannualDepreciationAmortizationDepletion%2CannualTaxProvision%2CannualPretaxIncome%2CannualAccountsReceivable%2CannualNetReceivables%2CannualInventory%2CannualAccountsPayable%2CannualCurrentDeferredRevenue%2CannualMinorityInterest%2CannualCostOfRevenue&period1=1577836800&period2=1791025946",
+  "retrieved_utc": "2026-10-03T11:12:27.938380+00:00",
+  "sha256": "883172b6f6585272b66c334a76dc487d0316acacac8eac5b159502c67eb7bf35",
+  "local_file": "9eb8663cf3fd143d5b9f9ac3f19cc8781c5bf979a5a75c57939f8f47425a5901.json",
+  "source_kind": "secondary_public_feed"
+}

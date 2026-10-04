@@ -1,0 +1,7 @@
+{
+  "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+  "retrieved_utc": "2026-10-03T11:23:33.915394+00:00",
+  "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+  "local_file": "b986f6790669a272e82d0ba4fd7845bbfead210673ba38d36a9ab57d506a2f65.json",
+  "source_kind": "official_sec"
+}
