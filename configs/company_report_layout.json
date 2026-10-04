@@ -1,0 +1,11 @@
+{
+  "version": "reference_layout_v2",
+  "template": null,
+  "cover": "two_column_333_199_pt",
+  "narrative_font_pt": 11,
+  "narrative_line_pt": 18,
+  "required_visualizations": [
+    "dcf_comparison"
+  ],
+  "source_locator_rows_per_page": 40
+}

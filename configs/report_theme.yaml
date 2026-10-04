@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "font": "Arial",
+  "body_size": 9.5,
+  "body_line": 14,
+  "source_size": 7,
+  "table_size": 7,
+  "blue": "082C4A",
+  "purple": "6B6ACB",
+  "cyan": "00A6D8",
+  "gray": "F2F3F5",
+  "margin": 40,
+  "page_width": 612,
+  "page_height": 792
+}

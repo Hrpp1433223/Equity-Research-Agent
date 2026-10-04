@@ -1,0 +1,20 @@
+{
+  "provider": "deepseek",
+  "api_format": "chat_completions",
+  "env_file": "../.env",
+  "variables": {
+    "api_key": "DEEPSEEK_API_KEY",
+    "model": "DEEPSEEK_MODEL",
+    "base_url": "DEEPSEEK_BASE_URL",
+    "thinking": "DEEPSEEK_THINKING",
+    "reasoning_effort": "DEEPSEEK_REASONING_EFFORT",
+    "timeout_seconds": "DEEPSEEK_TIMEOUT_SECONDS"
+  },
+  "selection": {
+    "verified_on": "2026-10-03",
+    "documented_model_version": "DeepSeek-V4.1-Flash",
+    "model_is_provider_alias": true,
+    "latest_release_source": "https://api-docs.deepseek.com/updates/",
+    "thinking_parameter_source": "https://api-docs.deepseek.com/zh-cn/guides/thinking_mode/"
+  }
+}

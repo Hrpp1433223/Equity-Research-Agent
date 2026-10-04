@@ -1,0 +1,204 @@
+{
+  "release_date": "2026-10-04",
+  "sample_as_of": "2026-10-03",
+  "public_repository_tests": {
+    "passed": 35,
+    "failed": 0,
+    "execution": "curated public repository, local mock HTTP service, no live API calls"
+  },
+  "reports": [
+    {
+      "company": "nvda",
+      "pages": 13,
+      "automatic_report_checks": 19,
+      "frozen_model_replay": "exact equality for all three scenarios",
+      "report_file_hashes": {
+        "docx": "4c5afb45f16e151b01f98e950e9a4318d2036ed164408c7b3d08731bf99068f0",
+        "pdf": "8d1f4237f05134f683d4a5661ffcf466eb0d03280aa843b763a98e281248ca3c"
+      }
+    },
+    {
+      "company": "tencent",
+      "pages": 13,
+      "automatic_report_checks": 19,
+      "frozen_model_replay": "exact equality for all three scenarios",
+      "report_file_hashes": {
+        "docx": "a99fd28b1a4bdc9ed450da7c7b5a85116335db5d923a3b438dffd36234184ff1",
+        "pdf": "8cff66099362b68c9e33e4eda74882433c1a0d317f50126aa701a6223c2ae859"
+      }
+    },
+    {
+      "company": "moutai",
+      "pages": 13,
+      "automatic_report_checks": 19,
+      "frozen_model_replay": "exact equality for all three scenarios",
+      "report_file_hashes": {
+        "docx": "60458b9a482b91c1a0f1b08461ab5085af9748af7d709cadec75923fe62a1549",
+        "pdf": "81071d61e66d2fde9e47bff812792020b2ef2264a54441086bcfe76ff372056e"
+      }
+    }
+  ],
+  "privacy": {
+    "passed": true,
+    "actual_configured_key_scan": "not found in distributed files or DOCX XML",
+    "personal_absolute_paths": "not found",
+    "excluded": [
+      "local .env",
+      "private API ledger",
+      "personal discussions",
+      "private reference PDF/DOCX",
+      "unrelated backtests"
+    ]
+  },
+  "limitations": [
+    "Automatic financial and layout checks do not independently reconcile every issuer filing.",
+    "Supplied reports use disclosed generic scenario assumptions, not investment ratings.",
+    "Annual balances require review for subsequent distributions, financing and dilution.",
+    "Public renderer is code-defined and offline prose differs from supplied reviewed narratives.",
+    "No GitHub upload or deployment was performed."
+  ],
+  "website": {
+    "passed": true,
+    "browser": "Microsoft Edge headless",
+    "desktop_viewport": [
+      1440,
+      1000
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "automated_checks": 28,
+    "visual_review": "Desktop full-page and mobile full-page plus original-size viewport screenshots inspected; no overlap or horizontal overflow",
+    "checks": [
+      {
+        "name": "nvda selected",
+        "passed": true
+      },
+      {
+        "name": "nvda cover image",
+        "passed": true
+      },
+      {
+        "name": "nvda dcf image",
+        "passed": true
+      },
+      {
+        "name": "nvda calculation image",
+        "passed": true
+      },
+      {
+        "name": "nvda pdf download",
+        "passed": true
+      },
+      {
+        "name": "nvda docx download",
+        "passed": true
+      },
+      {
+        "name": "tencent selected",
+        "passed": true
+      },
+      {
+        "name": "tencent cover image",
+        "passed": true
+      },
+      {
+        "name": "tencent dcf image",
+        "passed": true
+      },
+      {
+        "name": "tencent calculation image",
+        "passed": true
+      },
+      {
+        "name": "tencent pdf download",
+        "passed": true
+      },
+      {
+        "name": "tencent docx download",
+        "passed": true
+      },
+      {
+        "name": "moutai selected",
+        "passed": true
+      },
+      {
+        "name": "moutai cover image",
+        "passed": true
+      },
+      {
+        "name": "moutai dcf image",
+        "passed": true
+      },
+      {
+        "name": "moutai calculation image",
+        "passed": true
+      },
+      {
+        "name": "moutai pdf download",
+        "passed": true
+      },
+      {
+        "name": "moutai docx download",
+        "passed": true
+      },
+      {
+        "name": "keyboard market navigation",
+        "passed": true
+      },
+      {
+        "name": "link GITHUB_UPLOAD_GUIDE_ZH.md",
+        "passed": true
+      },
+      {
+        "name": "link reports/nvda/nvda.pdf",
+        "passed": true
+      },
+      {
+        "name": "link reports/tencent/tencent.pdf",
+        "passed": true
+      },
+      {
+        "name": "link reports/tencent/tencent.docx",
+        "passed": true
+      },
+      {
+        "name": "link reports/tencent/validation.json",
+        "passed": true
+      },
+      {
+        "name": "link validation.json",
+        "passed": true
+      },
+      {
+        "name": "link MULTI_MARKET_GUIDE_ZH.html",
+        "passed": true
+      },
+      {
+        "name": "mobile no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "no JavaScript errors",
+        "passed": true
+      }
+    ]
+  },
+  "readme": {
+    "passed": true,
+    "embedded_images": 9,
+    "linked_assets_checked": 20,
+    "missing_assets": [],
+    "mobile_horizontal_overflow": false,
+    "preview": "Local GFM rendering with GitHub-style CSS; no remote GitHub deployment",
+    "screenshots": "Actual public workspace replaying accepted data and a saved six-source DeepSeek response",
+    "live_model_requests": 0,
+    "gif": {
+      "file": "docs/assets/readme/workflow-demo.gif",
+      "frames": 9,
+      "duration_ms": 17400
+    },
+    "visual_review": "Desktop and mobile README screenshots, workspace screenshot, and suggestion/application GIF frames inspected"
+  }
+}

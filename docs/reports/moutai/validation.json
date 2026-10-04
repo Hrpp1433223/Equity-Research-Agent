@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": {
+    "english_only_docx": true,
+    "editable_text": true,
+    "no_placeholders": true,
+    "docx_hash": true,
+    "reference_cover_frame": true,
+    "dcf_chart_embedded": true,
+    "chart_currency_values": true,
+    "financial_recalculation": true,
+    "scenario_values_in_word": true,
+    "fx_consistent": true,
+    "sensitivity_center": true,
+    "dupont_identity": true,
+    "source_cache_hashes": true,
+    "frozen_evidence_hashes": true,
+    "pdf_export_hash": true,
+    "page_count": true,
+    "english_only_pdf": true,
+    "scenario_values_in_pdf": true,
+    "page_bounds": true
+  },
+  "pages": 13,
+  "visual_review": "All final report pages visually inspected during local acceptance",
+  "as_of": "2026-10-03",
+  "report_sha256": {
+    "docx": "60458b9a482b91c1a0f1b08461ab5085af9748af7d709cadec75923fe62a1549",
+    "pdf": "81071d61e66d2fde9e47bff812792020b2ef2264a54441086bcfe76ff372056e"
+  },
+  "source_status": "public_data_research_draft",
+  "limitations": "Public-data research draft. Secondary feeds and generic assumptions are not independent issuer-filing verification or an investment rating."
+}

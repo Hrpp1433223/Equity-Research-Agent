@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "nvda",
+    "name": "NVIDIA",
+    "market": "US",
+    "symbol": "NVDA",
+    "currency": "USD",
+    "as_of": "2026-10-03",
+    "annual_anchor": "2026-01-25",
+    "close_date": "2026-10-02",
+    "close": 233.9499969482422,
+    "values": {
+      "bull": 114.81,
+      "base": 92.08,
+      "bear": 71.87
+    },
+    "pages": 13,
+    "checks": 19
+  },
+  {
+    "slug": "tencent",
+    "name": "Tencent",
+    "market": "HK",
+    "symbol": "00700",
+    "currency": "HKD",
+    "as_of": "2026-10-03",
+    "annual_anchor": "2025-12-31",
+    "close_date": "2026-10-02",
+    "close": 421.20001220703125,
+    "values": {
+      "bull": 494.73,
+      "base": 372.11,
+      "bear": 262.39
+    },
+    "pages": 13,
+    "checks": 19
+  },
+  {
+    "slug": "moutai",
+    "name": "Kweichow Moutai",
+    "market": "SH",
+    "symbol": "600519",
+    "currency": "CNY",
+    "as_of": "2026-10-03",
+    "annual_anchor": "2025-12-31",
+    "close_date": "2026-09-30",
+    "close": 1258.6199951171875,
+    "values": {
+      "bull": 912.15,
+      "base": 722.44,
+      "bear": 559.34
+    },
+    "pages": 13,
+    "checks": 19
+  }
+]

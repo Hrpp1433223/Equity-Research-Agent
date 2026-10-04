@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Explore three-market equity research reports with editable Word, transparent DCF calculations and traceable assumptions."><title>Equity Research Agent — Research you can inspect</title><link rel="stylesheet" href="assets/site.css"></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="#"><span class="mark">ER<span>↗</span></span>Equity Research Agent</a><nav aria-label="Main"><a href="#reports">Reports</a><a href="#method">Method</a><a href="#quality">Quality</a><a class="nav-button" href="GITHUB_UPLOAD_GUIDE_ZH.md">Set up Pages ↗</a></nav></header>
+<main id="main"><section class="hero"><div class="hero-copy"><p class="eyebrow"><span></span> OPEN PROJECT SHOWCASE · V2</p><h1>Research you<br>can <em>inspect.</em></h1><p class="lead">From financial facts to explicit assumptions.<br>From assumptions to an editable research report.</p><p class="hero-note">A local equity research workspace for US, Shanghai and Hong Kong stocks. Explore the actual outputs, the calculation detail and the reasoning behind the numbers.</p><div class="actions"><a class="button" href="#reports">Explore the reports <span>↗</span></a><a class="text-link" href="#method">See how it works →</a></div><div class="hero-tags"><span>Editable Word</span><span>Same-source PDF</span><span>Three-scenario DCF</span></div></div><div class="hero-visual" aria-label="Preview of the NVIDIA report"><div class="paper-back"></div><img class="hero-paper" src="assets/nvda/cover.png" alt="Actual cover of the NVIDIA research report" width="935" height="1210"><div class="floating-note"><span class="status-dot"></span> AN ACTUAL DELIVERABLE<strong>13 pages. All inspectable.</strong><small>Numbers, reasoning, valuation and sources.</small><a href="reports/nvda/nvda.pdf">Open the NVIDIA PDF ↗</a></div><div class="visual-label">01 / FINANCIAL ANALYSIS &amp; DCF</div></div></section>
+<section class="proof-strip" aria-label="Verified output summary"><div><strong>3</strong><span>equity markets</span></div><div><strong>39</strong><span>report pages reviewed</span></div><div><strong>19</strong><span>automatic checks per report</span></div><div><strong>2</strong><span>formats · Word + PDF</span></div></section>
+<section id="reports" class="reports section"><div class="section-head"><div><p class="eyebrow">01 / THE OUTPUTS</p><h2>Three markets.<br>One research standard.</h2></div><p>These are complete reports, not mockups.<br>Switch markets, inspect the valuation and download<br>the editable document or its matching PDF.</p></div><div class="market-tabs" role="tablist" aria-label="Choose a sample report"><button role="tab" aria-selected="true" aria-controls="report-panel" id="tab-nvda" data-report="nvda">01 <span>United States</span><small>NVDA</small></button><button role="tab" aria-selected="false" aria-controls="report-panel" id="tab-tencent" data-report="tencent">02 <span>Hong Kong</span><small>00700</small></button><button role="tab" aria-selected="false" aria-controls="report-panel" id="tab-moutai" data-report="moutai">03 <span>Shanghai A-share</span><small>600519</small></button></div><div id="report-panel" class="report-panel" role="tabpanel" aria-labelledby="tab-nvda"><div class="report-info"><p class="market-label" id="sample-market"></p><h3 id="sample-name"></h3><p class="sample-sub" id="sample-sub"></p><div class="value-grid"><div><span>Base DCF / share</span><strong id="base-value"></strong></div><div><span>Dated close / share</span><strong id="close-value"></strong></div></div><div class="chart-wrap"><svg id="scenario-chart" viewBox="0 0 470 178" role="img" aria-label="Three scenario values compared with the dated stock close"></svg></div><p class="sample-disclaimer">Conditional scenario values under disclosed assumptions. These are not investment ratings or assured target prices.</p><div class="actions"><a id="sample-pdf" class="button" target="_blank" rel="noopener">Read the PDF ↗</a><a id="sample-docx" class="button light" download>Download Word ↓</a></div><a id="sample-validation" class="evidence-link" target="_blank" rel="noopener">View checks &amp; file hashes →</a><div class="dates" id="sample-dates"></div></div><div class="report-preview"><div class="preview-toolbar"><span>ACTUAL REPORT PAGES</span><div><button class="preview-button active" data-page="cover">Cover</button><button class="preview-button" data-page="dcf">DCF</button><button class="preview-button" data-page="calculation">Calculation</button></div></div><a id="preview-open" target="_blank" rel="noopener"><img id="sample-image" src="assets/nvda/cover.png" alt="Report cover page" loading="lazy"></a><p class="preview-caption">Click the preview to inspect the full-resolution page.</p></div></div></section>
+<section id="method" class="method section"><p class="eyebrow">02 / THE WORKFLOW</p><div class="section-head"><h2>Model the value.<br><em>Keep the judgment visible.</em></h2><p>Computation, research and report layout are separate.<br>Every suggestion remains a proposal until you apply it.</p></div><div class="workflow"><article><span class="step">01</span><h3>Start with the facts</h3><p>Choose an exact security. Load dated financial observations and a stock close. Preserve currencies, fiscal periods and source references.</p><span class="tag">Dated evidence</span></article><article><span class="step">02</span><h3>Discuss the assumptions</h3><p>Set inputs yourself or challenge your thesis with DeepSeek. Review suggested ranges, sources and counterarguments before applying selected values.</p><span class="tag">User-controlled judgment</span></article><article><span class="step">03</span><h3>Calculate and inspect</h3><p>The local engine computes FCFF, terminal reinvestment, the equity bridge and sensitivity. The model does not invent the valuation arithmetic.</p><span class="tag">Deterministic calculations</span></article><article><span class="step">04</span><h3>Deliver editable research</h3><p>Keep numerical Key Takeaways, then explain the mechanisms. Export Word and PDF with calculation details, assumptions and evidence.</p><span class="tag">Reviewable outputs</span></article></div><div class="architecture"><span>Public facts</span><b>→</b><span>Reviewed assumptions</span><b>→</b><span>Financial engine</span><b>→</b><span>Word + PDF</span></div></section>
+<section id="quality" class="quality section"><div class="quality-intro"><p class="eyebrow">03 / THE EVIDENCE</p><h2>Quality is more<br>than a good cover.</h2><p>Readable pages matter. So do matched currencies, reproducible calculations and honest limits.</p><a class="text-link" href="validation.json" target="_blank" rel="noopener">Inspect the release validation →</a></div><div class="quality-list"><article><span>01</span><div><h3>Every supplied page was reviewed</h3><p>All 39 pages across the three frozen reports were visually checked. The DCF visualization, assumptions sidebar and landscape calculation tables are included.</p></div><b>✓</b></article><article><span>02</span><div><h3>The numbers reconcile</h3><p>Each report passed 19 automatic checks covering financial recalculation, DuPont identity, currency conversion, chart values, Word/PDF consistency and provenance hashes.</p></div><b>✓</b></article><article><span>03</span><div><h3>The limitations remain visible</h3><p>Secondary feeds are not independently filing-verified. Annual balances can lag the stock price. Generic forecasts, terminal inputs and bridge policies require company-specific review.</p></div><b>✓</b></article><article><span>04</span><div><h3>The release keeps private material out</h3><p>The repository excludes API keys, personal discussion histories, private reference reports and unrelated backtests. The public renderer uses its own code-defined layout.</p></div><b>✓</b></article></div></section>
+<section class="get-started"><div><p class="eyebrow">EXPLORE HERE. GENERATE LOCALLY.</p><h2>A showcase online.<br>A research workspace on your machine.</h2><p>GitHub Pages serves these frozen outputs. Run the Python workspace locally to generate reports or discuss assumptions with your own configured provider.</p></div><div class="setup-card"><span>LOCAL QUICK START</span><pre><code>python -m venv .venv
+.venv/Scripts/python.exe -m pip install -e ".[test]"
+.venv/Scripts/python.exe -m equity_research_agent.cli serve</code></pre><p>Windows quick start from the repository directory. PDF export needs Windows, Microsoft Word and Poppler. Other systems can generate Word using --skip-pdf.</p><a href="MULTI_MARKET_GUIDE_ZH.html">中文操作指南 ↗</a><a href="GITHUB_UPLOAD_GUIDE_ZH.md">GitHub 上传与 Pages 指南 ↗</a></div></section></main><footer><a class="brand" href="#"><span class="mark">ER<span>↗</span></span>Equity Research Agent</a><p>Frozen sample date: 03 October 2026 · Public-data research drafts<br>No brokerage affiliation or institutional endorsement.</p><a href="#main">Back to top ↑</a></footer><script id="sample-data" type="application/json">[
+  {
+    "slug": "nvda",
+    "name": "NVIDIA",
+    "market": "US",
+    "symbol": "NVDA",
+    "currency": "USD",
+    "as_of": "2026-10-03",
+    "annual_anchor": "2026-01-25",
+    "close_date": "2026-10-02",
+    "close": 233.9499969482422,
+    "values": {
+      "bull": 114.81,
+      "base": 92.08,
+      "bear": 71.87
+    },
+    "pages": 13,
+    "checks": 19
+  },
+  {
+    "slug": "tencent",
+    "name": "Tencent",
+    "market": "HK",
+    "symbol": "00700",
+    "currency": "HKD",
+    "as_of": "2026-10-03",
+    "annual_anchor": "2025-12-31",
+    "close_date": "2026-10-02",
+    "close": 421.20001220703125,
+    "values": {
+      "bull": 494.73,
+      "base": 372.11,
+      "bear": 262.39
+    },
+    "pages": 13,
+    "checks": 19
+  },
+  {
+    "slug": "moutai",
+    "name": "Kweichow Moutai",
+    "market": "SH",
+    "symbol": "600519",
+    "currency": "CNY",
+    "as_of": "2026-10-03",
+    "annual_anchor": "2025-12-31",
+    "close_date": "2026-09-30",
+    "close": 1258.6199951171875,
+    "values": {
+      "bull": 912.15,
+      "base": 722.44,
+      "bear": 559.34
+    },
+    "pages": 13,
+    "checks": 19
+  }
+]</script><script src="assets/site.js"></script></body></html>
